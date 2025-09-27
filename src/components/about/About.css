@@ -1,0 +1,41 @@
+.About{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.About_left{
+    flex-basis: 40%;
+    position: relative;
+}
+.About_right{
+    flex-basis: 56%;
+}
+.About_image{
+    width: 100%;
+    border-radius: 10px;
+}
+.play_icon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.About h3{
+    color: #e00404;
+    font-size: 26px;
+    font-weight: 600;
+}
+.About h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(151, 110, 5);
+    margin: 10px 0;
+    max-width: 400px;
+}
+.About p{
+color: #c70606;
+margin-bottom: 20px;
+}
