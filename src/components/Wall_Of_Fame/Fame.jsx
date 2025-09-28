@@ -27,7 +27,7 @@ function Fame() {
       <img
         src={back_icon}
         alt="back_icon"
-        className="back_icon"
+        className="back_icon "
         onClick={backward}
       />
       <img

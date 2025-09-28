@@ -1,0 +1,63 @@
+.Contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Contact_col{
+    flex-basis: 48%;
+    color: grey;
+}
+.Contact_col p{
+    /* text-align: center; */
+max-width: 450px;
+}
+.Contact_col h3{
+    font-weight: 400;
+    font-size: 25px;
+    /* color: rgb(160, 117, 9); */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #ff3131;
+}
+.Contact_col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+.Contact_col ul li{
+list-style: none;
+    color: #ad0404;
+
+display: flex;
+align-items: center;
+margin: 20px 0;
+}
+
+.Contact_col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+.Contact form input, .Contact form textarea{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    outline: 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: #5251513d;
+    margin-top: 5px;
+    resize: none;
+    color: #ffff;
+}
+.Contact form button{
+    margin-top: 10px;
+}
+.Contact form label{
+    color: #ad0404;
+}
+.Contact  span{
+    display: block;
+    margin: 20px 15px 20px;
+}

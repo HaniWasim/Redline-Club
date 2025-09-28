@@ -18,6 +18,10 @@ background-color: #ff3131;
 right: auto;
 left: 0;
 }
+.next_icon:hover,.back_icon:hover{
+background-color: #a80505;
+
+}
 .slider{
     overflow: hidden;
 }
