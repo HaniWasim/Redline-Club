@@ -69,3 +69,21 @@ a{
 .footer_cont Title{
     margin: 0;
 }
+.links:hover{
+    color: rgb(185, 133, 4);
+}
+
+
+/* **----------------------Media Query -----------------** */
+
+
+@media (max-width:1200px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .btn{
+         padding: 5px 10px;
+    }
+}

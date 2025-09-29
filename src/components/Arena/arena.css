@@ -1,17 +1,27 @@
-.Arena{
-    margin: 80px auto;
-    width: 90%;
-    text-align: center;
+.Arena {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.gallery img {
+  width: 23%;
+  height: 290px;
+  border-radius: 10px;
+}
 
-}
-.gallery{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-.gallery img{
-    width: 23%;
-    height: 290px;
-    border-radius: 10px;
+/* **----------------------Media Query -----------------** */
+@media (max-width: 800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width:  48%;
+        margin-bottom: 20px;
+    }
 }

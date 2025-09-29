@@ -8,9 +8,13 @@ import Arena from "./components/Arena/Arena";
 import Fame from "./components/Wall_Of_Fame/Fame";
 import Contact from "./components/Contact/Contact";
 import pummp from "./assets/pump.png";
-import Footer from "./components/Wall_Of_Fame/footer/Footer";
+import Footer from "./components/footer/Footer";
+import Video from "./components/videos/Video";
+import { useState } from "react";
 
 function App() {
+  const [VideoPlay, setVideoPlay] = useState(false)
+  
   return (
     <div>
       <Navbar />
@@ -18,13 +22,13 @@ function App() {
       <div className="container">
         <Title subTitle="Modules" Title="What We Offer" />
         <Program />
-        <About />
+        <About setVideoPlay={setVideoPlay} />
         <Title subTitle="Arena" Title="Machines That Inspire" />
 
         <Arena />
         <Title subTitle="Wall of Fame" Title="Become a Member" />
         <Fame />
-        <div className="footer">
+        <div className="footer Club">
           <Title subTitle="Join The Club"  Title="Fuel Your Passion" />
             <span>
               <img className="pump" src={pummp} alt="" />
@@ -32,6 +36,7 @@ function App() {
           <Contact />
         </div>
           <Footer/>
+          <Video VideoPlay={VideoPlay} setVideoPlay={setVideoPlay}/>
       </div>
     </div>
   );

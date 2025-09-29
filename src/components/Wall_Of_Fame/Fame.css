@@ -1,60 +1,95 @@
+.Fame {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+.next_icon,
+.back_icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #ff3131;
+}
+.back_icon {
+  right: auto;
+  left: 0;
+}
+.next_icon:hover,
+.back_icon:hover {
+  background-color: #a80505;
+}
+.slider {
+  overflow: hidden;
+}
+.slider ul {
+  display: flex;
+  overflow-x: hidden;
+  width: 200%;
+  transition: 0.5s;
+}
+.slider ul li {
+  list-style: none;
+  width: 50%;
+  padding: 20px;
+}
+.slide {
+  box-shadow: 0 0 20px rgba(56, 56, 56, 0.628);
+  padding: 40px;
+  border-radius: 10px;
+  color: #787272;
+  line-height: 1.4;
+}
+.slide img {
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid rgb(151, 4, 4);
+}
+.user_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.user_info h3 {
+  color: #ff3131;
+}
+
+/* **----------------------Media Query -----------------** */
+@media (max-width: 800px) {
+
 .Fame{
-    margin: 80px auto;
-    padding: 0 80px;
-    position: relative;
+    padding: 0 40px;
 }
-.next_icon,.back_icon{
-position: absolute;
-top: 50%;
-right: 0;
-transform: translateY(-50%);
-padding: 15px;
-width: 50px;
-border-radius: 50%;
-cursor: pointer;
-background-color: #ff3131;
+.next_icon, .back_icon{
+    padding: 10px;
+    width: 35px ;
 }
-.back_icon{
-right: auto;
-left: 0;
+.Fame ul li{
+    padding: 10px;
 }
-.next_icon:hover,.back_icon:hover{
-background-color: #a80505;
+.slide{padding: 10px;}
+.slide img{
+    width: 50px;
+  border: 3px solid rgb(151, 4, 4);
 
 }
-.slider{
-    overflow: hidden;
 }
-.slider ul{
-    display: flex;
-    overflow-x: hidden;
-    width: 200%;
-    transition: 0.5s;
-}
-.slider ul li{
-    list-style: none;
-    width: 50%;
-    padding: 20px;
-}
-.slide{
-    box-shadow: 0 0 20px rgba(56, 56, 56, 0.628);
-    padding: 40px;
-    border-radius: 10px;
-    color: #787272;
-    line-height: 1.4;
-}
-.slide img{
-    width: 65px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 4px solid rgb(151, 4, 4);
-}
-.user_info{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px ;
-    font-size: 15px;
-}
-.user_info h3{
-    color: #ff3131;
+@media (max-width: 800px) {
+    .user_info{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user_info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
 }

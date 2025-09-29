@@ -8,12 +8,19 @@ import bunch_5 from "../../assets/bunch_5.jpg";
 import play_icon_1 from "../../assets/play_icon_1.png";
 import play_icon from "../../assets/play-icon.png";
 
-const About = () => {
+const About = ({ setVideoPlay }) => {
   return (
     <div className="About">
       <div className="About_left">
         <img src={bunch_4} alt="" className="About_image " />
-        <img src={play_icon_1} alt=""  className="play_icon"/>
+        <img
+          src={play_icon_1}
+          alt=""
+          className="play_icon"
+          onClick={() => {
+            setVideoPlay(true);
+          }}
+        />
       </div>
       <div className="About_right">
         <h3>Our Crew</h3>
