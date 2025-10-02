@@ -80,7 +80,7 @@
 
 }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .user_info{
         display: block;
         margin-bottom: 10px;

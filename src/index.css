@@ -87,3 +87,10 @@ a{
          padding: 5px 10px;
     }
 }
+
+@media (max-width: 700px){
+    .pump{
+        width: 90px;
+        margin-left: 35%;
+    }
+}

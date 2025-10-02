@@ -52,8 +52,7 @@ function Fame() {
                 family built on adrenaline, ambition, and the art of engineering
                 perfection. Every curve, every roar of the engine, every glint
                 of chrome tells a story of passion and performance. We exist for
-                those who live to drive, those who see a stretch of road as a
-                canvas for power and precision.
+                those who live to drive
               </p>
             </div>
           </li>
@@ -71,8 +70,7 @@ function Fame() {
                 family built on adrenaline, ambition, and the art of engineering
                 perfection. Every curve, every roar of the engine, every glint
                 of chrome tells a story of passion and performance. We exist for
-                those who live to drive, those who see a stretch of road as a
-                canvas for power and precision.
+                those who live to drive
               </p>
             </div>
           </li>
@@ -90,8 +88,7 @@ function Fame() {
                 family built on adrenaline, ambition, and the art of engineering
                 perfection. Every curve, every roar of the engine, every glint
                 of chrome tells a story of passion and performance. We exist for
-                those who live to drive, those who see a stretch of road as a
-                canvas for power and precision.
+                those who live to drive
               </p>
             </div>
           </li>
@@ -109,8 +106,7 @@ function Fame() {
                 family built on adrenaline, ambition, and the art of engineering
                 perfection. Every curve, every roar of the engine, every glint
                 of chrome tells a story of passion and performance. We exist for
-                those who live to drive, those who see a stretch of road as a
-                canvas for power and precision.
+                those who live to drive
               </p>
             </div>
           </li>
